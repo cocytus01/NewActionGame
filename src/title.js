@@ -16,8 +16,7 @@ var MyLayer = cc.Layer.extend({
         }
 
 
-        var Title_png = cc.Sprite.create(res.howtoplay_png);
-
+        var Title_png = cc.Sprite.create(res.Title_png);
         Title_png.setPosition(size.width / 2, size.height / 2);
         this.addChild(Title_png);
         //add code

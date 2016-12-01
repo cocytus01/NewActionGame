@@ -1,6 +1,6 @@
 var res = {
    Title_png:"res/title.png",
-   howtoplay_png:"res/HowTo3.png",
+   howtoplay_png:"res/HowTo.png",
    help_png: "res/help1.png",
    help2_png: "res/help2.png",
    help3_png: "res/help3.png",
