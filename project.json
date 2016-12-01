@@ -1,0 +1,30 @@
+{
+    "project_type": "javascript",
+
+    "debugMode": 0,
+    "showFPS": false,
+    "frameRate": 60,
+    "id": "gameCanvas",
+    "renderMode": 0,
+    "engineDir": "",
+    "modules": ["cocos2d", "external"],
+
+    "jsList": [
+        "src/resource.js",
+        "src/player.js",
+        "src/terrain.js",
+        "src/objects.js",
+        "src/scroll_bg.js",
+        "src/tiledmap.js",
+        "src/app.js",
+        "src/gameover.js",
+        "src/title.js",
+        "src/howto.js",
+        "src/coin.js",
+        "src/help.js",
+        "src/help2.js",
+        "src/help3.js",
+        "src/credit.js",
+        "src/clear.js"
+    ]
+}
