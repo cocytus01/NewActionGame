@@ -213,6 +213,7 @@ var game = cc.Layer.extend({
           audioEngine.setMusicVolume(audioEngine.getMusicVolume(res.bgm1) + 0.7);
           //audioEngine.stopAllEffects();
           cc.director.runScene(new gameScene);
+          score = 0;
           HP = 5;
           death_se = true;
         },1500);
