@@ -38,24 +38,24 @@ var ClearLayer = cc.Layer.extend({
         this.addChild(totallabel, 1);
 
         if(Total < 1500){
-          var hyokalabel = cc.LabelTTF.create("評価:不可", "ＭＳ Ｐゴシック", 30);
+          var hyokalabel = cc.LabelTTF.create("RANK:D", "ＭＳ Ｐゴシック", 30);
           hyokalabel.setPosition(size.width / 2, 50);
           this.addChild(hyokalabel, 1);
-        }else if (Total >= 2000){
-            var hyokalabel = cc.LabelTTF.create("評価:可", "ＭＳ Ｐゴシック", 30);
+        }else if (Total >= 1500 && Total < 2500){
+            var hyokalabel = cc.LabelTTF.create("RANK:C", "ＭＳ Ｐゴシック", 30);
             hyokalabel.setPosition(size.width / 2, 50);
             this.addChild(hyokalabel, 1);
 
-        }else if(Total >= 3000){
-            var hyokalabel = cc.LabelTTF.create("評価:良", "ＭＳ Ｐゴシック", 30);
+        }else if(Total >= 2500 && Total < 3000){
+            var hyokalabel = cc.LabelTTF.create("RANK:B", "ＭＳ Ｐゴシック", 30);
             hyokalabel.setPosition(size.width / 2, 50);
             this.addChild(hyokalabel, 1);
-        }else if(Total >= 4000){
-            var hyokalabel = cc.LabelTTF.create("評価:優", "ＭＳ Ｐゴシック", 30);
+        }else if(Total >= 3000 && Total < 4500){
+            var hyokalabel = cc.LabelTTF.create("RANK:A", "ＭＳ Ｐゴシック", 30);
             hyokalabel.setPosition(size.width / 2, 50);
             this.addChild(hyokalabel, 1);
-        }else if(Total >= 5000){
-            var hyokalabel = cc.LabelTTF.create("評価:秀", "ＭＳ Ｐゴシック", 30);
+        }else if(Total >= 4500){
+            var hyokalabel = cc.LabelTTF.create("RANK:S", "ＭＳ Ｐゴシック", 30);
             hyokalabel.setPosition(size.width / 2, 50);
             this.addChild(hyokalabel, 1);
         }
