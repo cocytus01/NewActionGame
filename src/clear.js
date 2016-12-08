@@ -37,7 +37,7 @@ var ClearLayer = cc.Layer.extend({
         totallabel.setPosition(size.width / 2, 80);
         this.addChild(totallabel, 1);
 
-        if(Total < 2000){
+        if(Total < 1500){
           var hyokalabel = cc.LabelTTF.create("評価:不可", "ＭＳ Ｐゴシック", 30);
           hyokalabel.setPosition(size.width / 2, 50);
           this.addChild(hyokalabel, 1);
@@ -46,15 +46,15 @@ var ClearLayer = cc.Layer.extend({
             hyokalabel.setPosition(size.width / 2, 50);
             this.addChild(hyokalabel, 1);
 
-        }else if(Total >= 5000){
+        }else if(Total >= 3000){
             var hyokalabel = cc.LabelTTF.create("評価:良", "ＭＳ Ｐゴシック", 30);
             hyokalabel.setPosition(size.width / 2, 50);
             this.addChild(hyokalabel, 1);
-        }else if(Total >= 10000){
+        }else if(Total >= 4000){
             var hyokalabel = cc.LabelTTF.create("評価:優", "ＭＳ Ｐゴシック", 30);
             hyokalabel.setPosition(size.width / 2, 50);
             this.addChild(hyokalabel, 1);
-        }else if(Total >= 15000){
+        }else if(Total >= 5000){
             var hyokalabel = cc.LabelTTF.create("評価:秀", "ＭＳ Ｐゴシック", 30);
             hyokalabel.setPosition(size.width / 2, 50);
             this.addChild(hyokalabel, 1);

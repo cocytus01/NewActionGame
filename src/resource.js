@@ -1,11 +1,11 @@
 var res = {
    Title_png:"res/title.png",
-   howtoplay_png:"res/HowTo.png",
+   howtoplay_png:"res/howto.png",
    help_png: "res/help1.png",
    help2_png: "res/help2.png",
    help3_png: "res/help3.png",
    credit_png: "res/credit.png",
-   gameover_png: "res/GameOver.png",
+   gameover_png: "res/gameover.png",
    clear_png: "res/clear.png",
    player_png: "res/player.png",
    player_jump_png: "res/player_jump.png",

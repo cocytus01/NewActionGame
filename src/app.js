@@ -51,7 +51,7 @@ var gameScene = cc.Scene.extend({
       audioEngine.playMusic(res.bgm5, true);
       }
       if(bgm_rnd==5){
-      audioEngine.playMusic(res.bgm6, true);
+      audioEngine.playMusic(res.bgm5, true);
       }
     }
     //audioEngine.setMusicVolume(audioEngine.getMusicVolume(res.bgm1) - 0.3);

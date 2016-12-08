@@ -25,6 +25,7 @@
         "src/help2.js",
         "src/help3.js",
         "src/credit.js",
-        "src/clear.js"
+        "src/clear.js",
+        "src/caution.js"
     ]
 }
